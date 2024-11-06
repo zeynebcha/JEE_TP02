@@ -1,12 +1,12 @@
 # JEE_TP02
 Rendu TP02 JEE par CHAABANE Zeineb, THOMAS Meven et PILLOT Pierre
 
-**Aperçu du projet
-**
+### Aperçu du projet
+
 Le projet MonPremier_ProjetJSP est conçu pour démontrer l'utilisation des servlets Java et des pages JSP pour créer une application web dynamique. 
 
-**Fonctionnalités implémentées
-**
+### Fonctionnalités implémentées
+
 Servlet de Base
 Une servlet (MyFirstServlet) qui affiche le message "hello world, this is my first servlet" ainsi que l'heure système.
 
