@@ -1,5 +1,5 @@
 # JEE_TP02
-Rendu TP02 JEE par CHAABANE Zeineb, THOMAS Meven et PILLOT Pierre
+Rendu TP02 JEE par CHAABANE Zeineb, THOMAS Meven, GADELLE Ella et PILLOT Pierre
 
 ### Aperçu du projet
 
@@ -16,7 +16,7 @@ RedirectServlet qui redirige les utilisateurs vers différentes pages basées su
 Servlet de Login
 LoginServlet qui gère le processus de connexion. Si les identifiants sont corrects (J2EE/J2EE), l'utilisateur est redirigé vers une page résultante, sinon un message d'erreur s'affiche.
 
-#### Fonctionnalités et méthodes servlet
+### Méthodes servlet
 
 MyFirstServlet
 doGet : Cette méthode est utilisée pour générer une réponse HTTP simple qui affiche le message "hello world, this is my first servlet" accompagné de l'heure système. Cela montre comment une servlet peut manipuler et répondre avec des données dynamiques.
