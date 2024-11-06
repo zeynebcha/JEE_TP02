@@ -15,3 +15,14 @@ RedirectServlet qui redirige les utilisateurs vers différentes pages basées su
 
 Servlet de Login
 LoginServlet qui gère le processus de connexion. Si les identifiants sont corrects (J2EE/J2EE), l'utilisateur est redirigé vers une page résultante, sinon un message d'erreur s'affiche.
+
+#### Fonctionnalités et méthodes servlet
+
+MyFirstServlet
+doGet : Cette méthode est utilisée pour générer une réponse HTTP simple qui affiche le message "hello world, this is my first servlet" accompagné de l'heure système. Cela montre comment une servlet peut manipuler et répondre avec des données dynamiques.
+
+RedirectServlet
+doGet : La méthode doGet de cette servlet extrait les paramètres de l'URL, tels que l'action et la page de destination. Selon ces paramètres, elle utilise response.sendRedirect(URL) pour rediriger le client vers la nouvelle URL, ce qui illustre comment gérer les actions basées sur les requêtes des utilisateurs.
+
+LoginServlet
+doPost : Cette méthode traite les données envoyées par l'utilisateur via un formulaire de login. Elle vérifie les identifiants (login et mot de passe) et, en fonction de leur validité, redirige l'utilisateur vers une page de résultat positive ou affiche un message d'erreur. Cette méthode montre comment gérer la sécurité et les données sensibles dans une application web.
