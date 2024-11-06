@@ -16,6 +16,9 @@ RedirectServlet qui redirige les utilisateurs vers différentes pages basées su
 Servlet de Login
 LoginServlet qui gère le processus de connexion. Si les identifiants sont corrects (J2EE/J2EE), l'utilisateur est redirigé vers une page résultante, sinon un message d'erreur s'affiche.
 
+Interface de connexion utilisateur
+login.html constitue le point d'entrée pour l'authentification des utilisateurs. Il contient un formulaire simple où les utilisateurs peuvent saisir leur nom d'utilisateur et leur mot de passe. Le formulaire est configuré pour envoyer les données à LoginServlet via une requête POST, déclenchant ainsi le processus d'authentification.
+
 ### Méthodes servlet
 
 MyFirstServlet
